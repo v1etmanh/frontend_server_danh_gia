@@ -69,7 +69,7 @@ const CardView = () => {
 
         {card.allergen_summary && (
           <p className="mt-3 text-xs text-orange-600 bg-orange-50 rounded-lg px-3 py-2">
-            ⚠ Dị ứng: {card.allergen_summary}
+         
           </p>
         )}
       </div>
