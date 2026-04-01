@@ -1,0 +1,36 @@
+# ── Dependencies ─────────────────────────────────────────
+node_modules/
+
+# ── Environment (KHÔNG bao giờ commit secrets) ───────────
+.env
+.env.local
+.env.*.local
+
+# ── Build outputs ─────────────────────────────────────────
+dist/
+build/
+
+# ── Database files (chỉ dùng local để migrate) ───────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS / Editor ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Vite cache ────────────────────────────────────────────
+frontend/.vite/
+frontend/node_modules/.vite/
+
+# ── ConPort (context DB local) ────────────────────────────
+context_portal/context.db
+backend/context_portal/context.db
