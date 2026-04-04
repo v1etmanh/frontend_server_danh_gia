@@ -1,7 +1,7 @@
 const APPRAISE_OPTIONS = [
   { value: 'familiar',   label: '✅ Quen thuộc',              style: 'bg-green-100 border-green-500 text-green-800 hover:bg-green-200' },
   { value: 'unfamiliar', label: '❌ Không quen thuộc',         style: 'bg-red-100 border-red-500 text-red-800 hover:bg-red-200' },
-  { value: 'name_issue', label: '⚠️ Có vẻ tên món có vấn đề', style: 'bg-yellow-100 border-yellow-500 text-yellow-800 hover:bg-yellow-200' },
+  { value: 'name_issue', label: '⚠️ Món ăn hoặc nguyên liệu có vấn đề', style: 'bg-yellow-100 border-yellow-500 text-yellow-800 hover:bg-yellow-200' },
 ];
 
 /**
